@@ -1,0 +1,182 @@
+//
+// Icons
+// --------------------------------------------------
+.icon-simple {
+	background-color: @base-color;
+	border-radius: 50%;
+	color: #ffffff;
+	font-size: 30px;
+	height: 60px;
+	line-height: 60px;
+	margin: 30px 0;
+	text-align: center;
+	width: 60px;
+	-webkit-border-radius: 50%;
+	&.dark{
+		background-color: #fff;
+		border: 1px solid;
+		border-radius: 0;
+		border-color: @link-hover-color;
+		color: @link-hover-color;
+	}
+	&.default{
+		background-color: @brand-info;
+		border-radius: 0;
+	}
+	&.bg-none{
+		background-color: transparent;
+		color: @text-color;
+	}
+}
+//
+// Icon Boxes
+//
+.icon-box {
+	display: block;
+	margin: 20px auto;
+	max-width: 250px;
+	text-align: center;
+	&:hover{
+		.icon{
+			background: @bg-dark;
+			color:  #fff;
+			border-color: @bg-dark;
+		}
+		h4{
+			color: @bg-gold;
+		}
+	}
+	.icon{
+		background-color: #fff;
+		border: 2px solid #f4f4f4;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+		color: @bg-gold;
+		display: block;
+		font-size: 3em;
+		height: 100px;
+		line-height: 92px;
+		text-align: center;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+		width: 100px;
+	}
+	h4{
+		color: #596371;
+		font-size: 1.4em;
+	}
+	p{
+		font-size: 1.1em;
+	}
+}
+//
+// Icon Boxes 2
+//
+.boxes-item-bg {
+	display: block;
+	margin: 20px auto;
+	max-width: 250px;
+	text-align: center;
+	.icon{
+		background-color: @bg-gold;
+		border: 1px solid @bg-gold;
+		border-radius: 50%;
+		color: #fff;
+		display: block;
+		font-size: 2.5em;
+		height: 100px;
+		line-height: 94px;
+		margin: 0 auto 20px;
+		text-align: center;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+		width: 100px;
+	}
+	&:hover{
+		.icon{
+			background: #fff;
+			color:  @bg-gold;;
+		}
+	}
+	h4{
+		color: @bg-gold;
+		font-size: 1.4em;
+	}
+	p{
+		font-size: 1.1em;
+	}
+}
+//
+// Icon Simple
+//
+.icon-simple {
+	background-color: @base-color;
+	border-radius: 50%;
+	color: #fff;
+	display: block;
+	font-size: 3em;
+	height: 100px;
+	line-height: 92px;
+	text-align: center;
+	transition: all 0.2s ease-in-out;
+	width: 100px;
+	&.default{
+		background-color: @link-hover-color;
+  		border-radius: 0;
+	}
+	&.bg-none {
+		background-color: transparent;
+		color: #596371;
+	}
+}
+//
+// Icon + Image
+//
+.ct-icon{
+	.icon-image{
+		position: relative;
+		color: #fff;
+		z-index: 100;
+		background-color: @base-color;
+		width: 72px;
+		height: 72px;
+		top: -37px;
+		border-radius: 50%;
+		right: -137px;
+		text-align: center;
+		padding: 0px;
+		span{
+			font-size: 1.6em;
+    		padding: 24px 0px 0px;
+		}
+	}
+}
+
+//
+// Icon entry
+//
+.icon-entry {
+    padding-bottom: 1.5em;
+}
+.icon-entry .content {
+    overflow: hidden;
+}
+.icon-entry i{
+    margin: 0;
+    color: @base-color;
+}
+.content-icon-entry{
+	float: left;
+    font-size: 20px;
+    line-height: 65px;
+    margin-right: 16px;
+}
+.foot-newsletter {
+	position: relative;
+}

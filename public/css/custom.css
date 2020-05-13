@@ -1,0 +1,40 @@
+#main_logo{
+    z-index: 3;
+    position: relative;
+    padding-top: 2%;
+}
+#lenguage{
+    z-index: 3;
+}
+#contact-info{
+    z-index: 3;
+    border-bottom: 1px solid #bea77e;
+}
+#nav-bottom{
+    box-shadow: 10px -12px 10px 37px white;
+    z-index: 1;
+}
+.menu{
+    border-left: 3px solid #bea77e;
+    border-top-left-radius: 70%;
+    transition: 0.5s;
+}
+.menu:hover{
+    border-top-left-radius: 40%;
+}
+.page-title{
+    background-image: linear-gradient(to bottom right,#d9ab72,white);
+    border-radius: 33%;
+    box-shadow: 0px 8px 32px 0px grey;
+}
+#fight{
+    border-radius: 33%;
+    box-shadow: 0px 0px 13px 3px white;
+}
+#lawimg{
+    background-color: white !important;
+    border: 3px solid #d9ab72;
+}
+#map{
+    max-height: 300px;
+}

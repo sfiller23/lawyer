@@ -1,0 +1,12 @@
+<ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/leads">Leads</a></li>
+    <li><a href="/login">Login</a></li>
+</ul>
+{{#if user}}<!-- means we have an active session going on -->
+<h1>Hello {{user.email}}</h1>
+<ul>
+    <li><a href="/signup">Sign up</a></li>    
+    <li><a href="/logout">Logout</a></li>
+</ul>
+{{/if}}

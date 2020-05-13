@@ -1,0 +1,19 @@
+<h2>Sign up</h2>
+<form action="/signup" method="POST">
+    <label for="email">Email:</label>
+    <input type="email" placeholder="Please enter you email" required="true" name="email" value={{formData.email}}>
+    {{#if errors }}
+        {{#if errors.email}}
+            <p class="small text-danger">{{errors.email}}</p>
+        {{/if}}
+    {{/if}}
+    <label for="password">Password:</label>
+    <input type="password" placeholder="Enter Password" required="true" name="password" value=''>
+    {{#if errors }}
+        {{#if errors.password}}
+            <p class="small text-danger">{{errors.password}}</p>
+        {{/if}}
+    {{/if}}
+    <button type="submit">Sign up</button>
+    <p>All ready have an account?<a href="/login">Log in here</a></p>
+</form>

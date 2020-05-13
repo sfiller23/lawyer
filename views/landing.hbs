@@ -1,0 +1,12 @@
+<form action="/" method="POST">
+<input name="lead_email" type="email">
+<button type="submit">Submit</button>
+</form>
+{{#if leads}}
+<h1>Leads</h1>
+{{#each leads}}
+<p id={{id}}><a href="/lead/{{id}}">{{email}}</a>
+    <button class="toDelete" data-val="{{id}}">Delete</button>
+</p>
+{{/each}}
+{{/if}}
